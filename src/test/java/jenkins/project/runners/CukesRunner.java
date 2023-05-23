@@ -17,7 +17,7 @@ import org.junit.runner.RunWith;
         },
         features = "src/test/resources/features",
         glue = "jenkins/project/step_definitions",
-        dryRun = true,
+        dryRun = false,
         tags = "@google",
         publish = true     //when this is true, it will publish a report that will be valid for 24 hours
 
