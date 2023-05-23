@@ -10,9 +10,9 @@ public class googleSearch {
     @Given("user is on Google search page")
     public void user_is_on_google_search_page() {
 
-//        WebDriver driver = new ChromeDriver();
-//
-//        driver.get("https://www.google.com");
+        ChromeDriver driver = new ChromeDriver();
+
+        driver.get("https://www.google.com");
 
         System.out.println("chrome is opening google home page");
     }
